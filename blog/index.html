@@ -1,0 +1,27 @@
+---
+layout: default
+title: Blog
+description: Notes on data science, analytics engineering, and learning.
+---
+
+<header class="page-header">
+  <p class="eyebrow">Blog</p>
+  <h1>Notes on data, systems, and career transitions.</h1>
+  <p class="page-description">
+    Early drafts and placeholders for writing that will become fuller essays over time.
+  </p>
+</header>
+
+<section class="page-section">
+  <div class="posts-list">
+    {% for post in site.posts %}
+      <a class="post-item" href="{{ post.url | relative_url }}">
+        <p class="meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <div>
+          <h2>{{ post.title }}</h2>
+          <p>{{ post.description }}</p>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>

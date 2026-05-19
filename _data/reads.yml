@@ -1,0 +1,20 @@
+- title: Designing Data-Intensive Applications
+  type: book
+  author: Martin Kleppmann
+  status: reading
+  url:
+  note: Systems thinking for reliable, scalable data products.
+
+- title: The Missing README
+  type: book
+  author: Chris Riccomini and Dmitriy Ryaboy
+  status: queued
+  url:
+  note: A practical software engineering guide to revisit.
+
+- title: How Complex Systems Fail
+  type: article
+  author: Richard I. Cook
+  status: read
+  url: https://how.complexsystems.fail/
+  note: A concise lens for thinking about reliability and failure modes.

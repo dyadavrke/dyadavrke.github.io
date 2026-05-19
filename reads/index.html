@@ -1,0 +1,47 @@
+---
+layout: default
+title: Recent Reads
+description: Books and articles I am reading, have read, or plan to read.
+---
+
+<header class="page-header">
+  <p class="eyebrow">Recent Reads</p>
+  <h1>Books and articles shaping my current thinking.</h1>
+  <p class="page-description">
+    A simple shelf for what I am reading, what I have finished, and what is queued next.
+  </p>
+</header>
+
+<section class="page-section">
+  {% assign statuses = "reading,read,queued" | split: "," %}
+  {% for status in statuses %}
+    {% assign reads = site.data.reads | where: "status", status %}
+    {% if reads.size > 0 %}
+      <div class="read-group">
+        <h2>{{ status | capitalize }}</h2>
+        <div class="reads-list">
+          {% for item in reads %}
+            {% if item.url %}
+              <a class="read-item" href="{{ item.url }}">
+            {% else %}
+              <article class="read-item">
+            {% endif %}
+                <span class="read-type">{{ item.type }}</span>
+                <div>
+                  <p class="meta">{{ item.author }}</p>
+                  <h3>{{ item.title }}</h3>
+                  {% if item.note %}
+                    <p>{{ item.note }}</p>
+                  {% endif %}
+                </div>
+            {% if item.url %}
+              </a>
+            {% else %}
+              </article>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</section>

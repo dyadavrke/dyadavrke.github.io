@@ -1,0 +1,29 @@
+title: Diwakar Yadav
+description: Personal website of Diwakar Yadav, product data scientist.
+url: "https://dyadavrke.github.io"
+baseurl: ""
+author:
+  name: Diwakar Yadav
+  email: diwakar.techfest@gmail.com
+  linkedin: https://www.linkedin.com/in/diwakar-yadav/
+  github: https://github.com/dyadavrke
+
+permalink: /blog/:title/
+
+nav:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Projects
+    url: /projects/
+  - title: Blog
+    url: /blog/
+  - title: Recent Reads
+    url: /reads/
+  - title: Contact
+    url: /contact/
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
