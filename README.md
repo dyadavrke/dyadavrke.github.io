@@ -1,6 +1,6 @@
 # Diwakar Yadav Portfolio
 
-Minimal Jekyll portfolio site intended for GitHub Pages at `https://dyadavrke.github.io`.
+Minimal Jekyll portfolio site intended for GitHub Pages at `https://dyadavrke.github.io/diwakar.yadav.github.io/`.
 
 ## Structure
 
