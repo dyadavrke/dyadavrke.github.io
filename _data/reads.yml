@@ -2,19 +2,19 @@
   type: book
   author: Martin Kleppmann
   status: reading
-  url:
+  url: https://www.amazon.in/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/B08VKSRFFT
   note: Systems thinking for reliable, scalable data products.
 
 - title: The Missing README
   type: book
   author: Chris Riccomini and Dmitriy Ryaboy
   status: queued
-  url:
+  url: https://nurkiewicz.com/2021/10/the-missing-readme-book-review.html
   note: A practical software engineering guide to revisit.
 
 - title: How Complex Systems Fail
   type: article
-  author: Richard I. Cook
+  author: Voytek Pitula
   status: read
-  url: https://how.complexsystems.fail/
-  note: A concise lens for thinking about reliability and failure modes.
+  url: https://w.pitula.me/fintech-engineering-handbook/
+  note: A concise lens for thinking about how systems working with money are built.
