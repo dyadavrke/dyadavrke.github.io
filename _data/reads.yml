@@ -1,3 +1,10 @@
+- title: UPI: Anatomy of a Transaction
+  type: article
+  author: Time Series of India
+  status: read
+  url: https://timeseriesofindia.com/economy/reads/upi-architecture/
+  note: A clear visualisation of how UPI transactions work.
+  
 - title: Designing Data-Intensive Applications
   type: book
   author: Martin Kleppmann
